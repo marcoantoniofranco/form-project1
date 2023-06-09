@@ -18,8 +18,49 @@
     <div class="page">
       <header class="header">
         <h1>Mentoria</h1>
-        <p>Preencha o formulário abaixo para agendar a sua mentoria</p>
+        <p>
+          Preencha o formulário abaixo para <br />
+          agendar a sua mentoria
+        </p>
       </header>
+      <form>
+        <fieldset>
+          <div class="fieldset-wrapper">
+            <legend>Informações pessoais</legend>
+            <div class="col-2">
+              <div class="input-wrapper">
+                <label for="event-name">Nome</label>
+                <input type="text" id="event-name" />
+              </div>
+
+              <div class="input-wrapper">
+                <label for="event-lastname">Sobrenome</label>
+                <input type="text" id="event-lastname" />
+              </div>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="event-email"
+                >Email <span>(digite um email válido)</span></label
+              >
+              <input type="email" id="event-email" />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="event-password"
+                >Senha <span>(mínimo de 6 caracteres)</span></label
+              >
+              <input type="password" id="event-password" />
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <div class="fieldset-wrapper">
+            <legend>Informações do mentor</legend>
+          </div>
+        </fieldset>
+      </form>
     </div>
   </body>
 </html>
