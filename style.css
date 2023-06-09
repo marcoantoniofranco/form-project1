@@ -18,6 +18,7 @@
 
 body {
   background: var(--cor-cinza-claro);
+  padding-bottom: 30px;
 }
 
 body,
@@ -147,4 +148,32 @@ fieldset legend {
   font-size: 1.2rem;
   line-height: 20px;
   color: #c1bccc;
+}
+
+footer {
+  height: 160px;
+  background: #535971;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 50px 70px;
+
+  border-radius: 0 0 20px 20px;
+}
+
+footer button {
+  font-family: var(--font-secundaria);
+  font-size: 2rem;
+  color: var(--cor-branca);
+  height: 55px;
+  border-radius: 20px;
+  background: #ff5374;
+  transition: background 0.3s;
+
+  border: none;
+}
+
+footer button:hover {
+  background: #dd4362;
 }
